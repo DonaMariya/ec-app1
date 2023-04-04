@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-image: 'https://th.bing.com/th/id/OIP.tP7MA-ZHfivG03SJdOragAHaEo?w=293&h=183&c=7&r=0&o=5&pid=1.7';
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  
+}
+.container{
+ background-image: 'https://th.bing.com/th/id/R.8546820ee580a8cdb3a9c1ebd11a4daa?rik=4fwMklQJCQU1Ow&riu=http%3a%2f%2fredonline.cdnds.net%2fmain%2fthumbs%2f25788%2fstack_of_books.jpg&ehk=xwtWWiDiDhhxV8yXIhXFgeNFvZ4ETt83uVe2km2jabI%3d&risl=&pid=ImgRaw&r=0';
+}
+.nav{
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #6389d4;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #27b68b;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.products{
+  display: flex;
+  flex-flow: wrap;
+  
+}
+.product{
+  margin: auto;
+}
+.btn{
+  max-width: 100px;
+  margin-left: 25% ;
+}
